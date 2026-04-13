@@ -1,0 +1,22 @@
+# Secrets
+.env
+terraform/terraform.tfvars
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/.terraform.lock.hcl
+
+# Build artifacts
+backend/target/
+frontend/dist/
+frontend/.angular/cache/
+frontend/node_modules/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
