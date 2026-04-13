@@ -1,10 +1,10 @@
-# Stage 1: Build Angular app
+# Stage 1: Build
 FROM node:18-alpine AS build
 WORKDIR /app
 COPY package*.json ./
-RUN npm ci --legacy-peer-deps && chmod +x node_modules/.bin/ng
+RUN npm ci --legacy-peer-deps
 COPY . .
-RUN ./node_modules/.bin/ng build --configuration production
+RUN npx --yes ng build --configuration production
 
 # Stage 2: Serve with nginx
 FROM nginx:alpine
