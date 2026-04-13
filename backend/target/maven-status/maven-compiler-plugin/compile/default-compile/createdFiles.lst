@@ -1,0 +1,12 @@
+com\quizapp\dto\QuizSubmission.class
+com\quizapp\dto\QuizQuestion.class
+com\quizapp\service\QuizService.class
+com\quizapp\model\QuizAttempt.class
+com\quizapp\repository\QuizAttemptRepository.class
+com\quizapp\repository\StudentRepository.class
+com\quizapp\service\GeminiService.class
+com\quizapp\QuizApplication.class
+com\quizapp\model\Badge.class
+com\quizapp\model\Student.class
+com\quizapp\repository\BadgeRepository.class
+com\quizapp\controller\QuizController.class
